@@ -1,7 +1,8 @@
 platogo-flow
 ============
 
-AS3 Command Framework and much more. It evolved from a simple command framework to a framework which supports:
+#What is it?
+It is AS3 Command Framework and much more. It evolved from a simple command framework to a framework which supports:
 
 * __command processing__
   * serial, parallel, nested
@@ -37,5 +38,20 @@ AS3 Command Framework and much more. It evolved from a simple command framework 
 
 Every part of the framework (command, screen, data, log, game) can be used on its own. 
 
+#What is coming?
+
+The Framework always evolves with the projects it is used for. So there is no time table for these next steps:
+
+* Unit Testing (especially for classes which use external libraries)
+* Samples ( Its already used in 8 projects, but these can not be share)
+* Tutorial
+* More command wrapper classes for other libraries ()
+* Integrating the [raix framework](https://github.com/richardszalay/raix) for data processing
+
+#How do I use it?
+
 The documentation for key classes is finished, but there is still a lot to write.
-[Documentation](http://g0ody.github.com/platogo-flow/)
+
+[Class Reference](http://g0ody.github.com/platogo-flow/)
+
+A step by step tutorial is coming soon
