@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../../override.css" type="text/css"><meta name="keywords" content="DataManager,com.platogo.flow.core.DataManager,DEFAULT_CONTAINER,DEFAULT_MANAGER_NAME,DEFAULT_MANAGER_NAME,DEFAULT_MANAGER_NAME,INDEX_SEPERATOR,consol,consolLevel,defaultInstance,defaultInstance,defaultInstance,instance,logEnabled,name,name,name,name,root,addCaller,addSource,call,clear,createContainer,critical,customentry,debug,entry,error,execute,getCaller,getInstance,getInstance,getInstance,getLayerByIndex,getLayerByScreen,getLayerIdx,getLog,getLogLevel,getManager,getManager,getMessage,getScreen,getScreens,getValue,has,has,hasScreen,has,hide,message,parse,parse,pop,push,register,register,register,register,register,register,removeCaller,removeSource,setValue,show,unregister,unregister,unregister,unregister,unregister,unregister,warning"><title>com.platogo.flow.core.DataManager</title></head><body><script language="javascript" type="text/javascript" src="../../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'DataManager - API Documentation';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">Flow</td><td class="titleTableTopNav" align="right"><a href="../../../../package-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../../class-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../../all-index-A.html" onclick="loadClassListFrame('../../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../../index.html?com/platogo/flow/core/DataManager.html&amp;com/platogo/flow/core/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">DataManager</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("DataManager"); titleBar_setSubNav(true,true,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">com.platogo.flow.core</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public  class  DataManager</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">DataManager  <img src="../../../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr><tr><td class="classHeaderTableLabel">Implements</td><td> <a href="../../../../com/platogo/flow/core/IManager.html">IManager</a></td></tr></table><p></p><p></p><p></p>
+	 The DataManager provides a data and data source registration service to access data from everywhere in the programm.
+	 
+	 <p></p><br/><hr></div><a name="propertySummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Properties</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableProperty"><tr><th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#defaultInstance" class="signatureLink">defaultInstance</a> : <a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a><div class="summaryTableDescription">[static] [read-only] 
+		 Access to the default DataManager Instance.</div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#name" class="signatureLink">name</a> : String<div class="summaryTableDescription">[read-only] 
+		 The name of the instance.</div></td><td class="summaryTableOwnerCol">DataManager</td></tr></table></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#DataManager()" class="signatureLink">DataManager</a>(alternativeName:String = null)</div><div class="summaryTableDescription">
+		 The DataManager functionality includes:
+		 register data
+		 unregister data
+		 add sources
+		 remove sources
+		 access data
+		 
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#addSource()" class="signatureLink">addSource</a>(key:String, source:*, description:String = null, isWriteable:Boolean = false):void</div><div class="summaryTableDescription">
+		 Add a data source, the description is use to access data
+		 
+		 The function has to be of the type: function(key : String):
+		 
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#clear()" class="signatureLink">clear</a>():void</div><div class="summaryTableDescription">
+		 Clears all data and all sources from the DataManager
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getInstance()" class="signatureLink">getInstance</a>(name:String):<a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a></div><div class="summaryTableDescription">[static] 
+		 Resturns a specific DataManager instance.</div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getValue()" class="signatureLink">getValue</a>(key:String, converter:* = null):*</div><div class="summaryTableDescription">
+		 Read data registered in the DataManager or in a connected source
+		 
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#has()" class="signatureLink">has</a>(key:String):Boolean</div><div class="summaryTableDescription">
+		 Check if the data already exist under the key.</div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#parse()" class="signatureLink">parse</a>(data:Object):void</div><div class="summaryTableDescription">
+		 Uses a data object to register several keys
+		 
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#register()" class="signatureLink">register</a>(key:String, data:*):void</div><div class="summaryTableDescription">
+		 Register data
+		 
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#removeSource()" class="signatureLink">removeSource</a>(key:String):void</div><div class="summaryTableDescription">
+		 Remove a data source
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setValue()" class="signatureLink">setValue</a>(key:String, data:*):Boolean</div><div class="summaryTableDescription">
+		 Write data in a registered datafield of the DataManager or in a connected source(if writeable)
+		 It does not work like register().</div></td><td class="summaryTableOwnerCol">DataManager</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#unregister()" class="signatureLink">unregister</a>(key:String):void</div><div class="summaryTableDescription">
+		 Unregister data, only for base keys, not for subkeys(like BaseKey.SubKey)
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr></table></div><a name="constantSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Constants</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableConstant"><tr><th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#DEFAULT_MANAGER_NAME" class="signatureLink">DEFAULT_MANAGER_NAME</a> : String = DataManager<div class="summaryTableDescription">[static] 
+		 The default manager name
+		 </div></td><td class="summaryTableOwnerCol">DataManager</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><div class="detailSectionHeader">Property Detail</div><a name="propertyDetail"></a><a name="defaultInstance"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">defaultInstance</td><td class="detailHeaderType">property</td></tr></table><div class="detailBody"><code>defaultInstance:<a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a></code>&nbsp;&nbsp;[read-only] <p></p><p></p><p>
+		 Access to the default DataManager Instance.
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get defaultInstance():<a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a></code><br/></div><a name="propertyDetail"></a><a name="name"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">name</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>name:String</code>&nbsp;&nbsp;[read-only] <p></p><p></p><p>
+		 The name of the instance.
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public function get name():String</code><br/></div><a name="constructorDetail"></a><div class="detailSectionHeader">Constructor Detail</div><a name="DataManager()"></a><a name="DataManager(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">DataManager</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">Constructor</td></tr></table><div class="detailBody"><code>public function DataManager(alternativeName:String = null)</code><p></p><p>
+		 The DataManager functionality includes:
+		 <li>register data</li>
+		 <li>unregister data</li>
+		 <li>add sources</li>
+		 <li>remove sources</li>
+		 <li>access data</li>
+		 
+		 </p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">alternativeName</span>:String</code> (default = <code>null</code>)<code></code> &mdash; A alternative name, if more than one DataManager is used.
+		 
+		 </td></tr></table><p><span class="label">See also</span></p><div class="seeAlso"><a href="../../../../com/platogo/flow/data/DataRef.html" target="">com.platogo.flow.data.DataRef</a></div><br/><span class="label"> Example </span><br/><div class="detailBody">
+		 There are several ways to initialize the DataManager and work with it.
+		 
+		 The Default way is to use the convenience class com.platogo.flow.Flow
+		 
+		 <div class="listing" version="3.0"><pre>
+         Flow.defaultInit();
+         
+         // register a new command, this can be one simple command or a complex series of commands using sequence commands (com.platogo.flow.commands.sequence)
+         Flow.data.register("user", {id:12, profilpic:pic.jpg, pictures : [pic1.jpg, pic2.jpg, pic3.jpg], admin: true});
+         
+         // somewhere else in the programm
+         // access the complete user object
+         var user : Object = Flow.data.getValue("user");
+         
+         // get a property
+         var userid: int = Flow.data.getValue("user.id");
+         
+         // get a element of a property array 
+         var picture_path: String = Flow.data.getValue("user.pictures.0");
+         
+         </pre></div>
+		 
+		 Use a custom DataManager
+		 
+		 <div class="listing" version="3.0"><pre>
+         var commands : CommandManager = new CommandManager("MyData");
+         // register a command
+         commands.register("user", {id:12, profilpic:pic.jpg, pictures : [pic1.jpg, pic2.jpg, pic3.jpg], admin: true});
+         
+         // somewhere lese in the programm
+         // check if the user object is available
+         DataManager.getInstance("MyData").has("user");
+         </pre></div>
+		 
+		 The default DataManager Standalone and adding a data source (com.greensock.loading.LoaderMax)
+		 
+		 <div class="listing" version="3.0"><pre>
+         DataManager.defaultInstance.register("user", {id:12, profilpic:pic.jpg, pictures : [pic1.jpg, pic2.jpg, pic3.jpg], admin: true});
+         
+         // access loader content of all loader max classes
+         DataManager.defaultInstance.addSource("LOADER", LoaderMax, "getContent");
+         
+         // access the current users data
+         DataManager.defaultInstance.addSource("PlatogoUser", PlatogoAPI, "currentUser.getData");
+         
+         // there is a ImageLoader named "myimage"
+         DataManager.defaultInstance.getValue("myimage");
+         
+         // there is a property level in the PlatogoAPI.currentUser
+         DataManager.defaultInstance.getValue("level");
+         
+         var dynamicData : DataRef = new DataRef("user");
+         var id : int = dynamicData.value.id;
+         </pre></div>
+		 </div></div><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="addSource()"></a><a name="addSource(String,any,String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">addSource</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public function addSource(key:String, source:*, description:String = null, isWriteable:Boolean = false):void</code><p></p><p></p><p>
+		 Add a data source, the description is use to access data
+		 
+		 The function has to be of the type: function(key : String):
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash; a key to reference the source
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">source</span>:*</code> &mdash; the source object
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">description</span>:String</code> (default = <code>null</code>)<code></code> &mdash; a description the access the source object (if part of the source to be accessed is dynamic)
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">isWriteable</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; defines if the setValue() can be used on the source
+		 
+		 </td></tr></table></p><br/><span class="label"> Example </span><br/><div class="detailBody">
+		 <div class="listing" version="3.0"><pre>
+         // register the content of the LoaderMax class
+         DataManager.defaultInstance.addSource("Loader", LoaderMax, "getContent");
+         
+         // access content in the loader
+         var pic : Bitmap = DataManager.defaultInstance.getValue("Loader.pic1") as Bitmap;
+         
+         //register the data the of the cureent user
+         DataManager.defaultInstance.addSource("Me", PlatogoAPI, "currentUser.getData");
+         
+         // access the level value of the currentUser
+         var level : int = DataManager.defaultInstance.getValue("Me.level", parseInt) as int;
+         
+         // Use the DataRef Class to get a even better access
+         var levelRef : DataRef = new DataRef("Me.level", parseInt);
+         trace(levelRef.value);
+         </pre></div>
+		 </div></div><a name="clear()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">clear</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function clear():void</code><p></p><p></p><p>
+		 Clears all data and all sources from the DataManager
+		 </p></div><a name="getInstance()"></a><a name="getInstance(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getInstance</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getInstance(name:String):<a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a></code><p></p><p></p><p>
+		 Resturns a specific DataManager instance.
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">name</span>:String</code> &mdash; of a DataManager instance
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../../com/platogo/flow/core/DataManager.html">DataManager</a></code> &mdash; <code>null</code> if there is no DataManager with the specific name.
+		 </td></tr></table></div><a name="getValue()"></a><a name="getValue(String,any)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getValue(key:String, converter:* = null):*</code><p></p><p></p><p>
+		 Read data registered in the DataManager or in a connected source
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash; the key to the data
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">converter</span>:*</code> (default = <code>null</code>)<code></code> &mdash; a function, that takes the data for the key as parameter and return some value
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>*</code> &mdash; data defined by the key
+		 
+		 </td></tr></table><p><span class="label">See also</span></p><div class="seeAlso"><a href="../../../../com/platogo/flow/data/DataRef.html" target="">com.platogo.flow.data.DataRef</a></div><br/><span class="label"> Example </span><br/><div class="detailBody">
+		 How to read data
+		 
+		 <div class="listing" version="3.0"><pre>
+         //get the complete user object
+         var user : Object = Flow.data.getValue("user");
+         
+         // get the id parameter of the user object
+         var id : int = Flow.data.getValue("user.id") as int;
+         
+         // access the third element of the pitures array
+         var pic : String = Flow.data.getValue("user.pictures.2") as String;
+         
+         // access the user object and convert it into a jason String
+         var user_str : String = Flow.data.getValue("user", JSON.encode) as String; 
+         
+         // use the DataRef class a better access
+         var userEncoded : DataRef = new DataRef("user", JSON.encode);
+         trace(userEncoded.value);
+         </pre></div>
+		 
+		 </div></div><a name="has()"></a><a name="has(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">has</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function has(key:String):Boolean</code><p></p><p></p><p>
+		 Check if the data already exist under the key. This function does not check the sources for data
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code></td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; <code>true</code> if there is data in the DataManager
+		 </td></tr></table></div><a name="parse()"></a><a name="parse(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">parse</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function parse(data:Object):void</code><p></p><p></p><p>
+		 Uses a data object to register several keys
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">data</span>:Object</code></td></tr></table></p></div><a name="register()"></a><a name="register(String,any)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">register</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function register(key:String, data:*):void</code><p></p><p></p><p>
+		 Register data
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash; key to register data
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">data</span>:*</code> &mdash; data object
+		 </td></tr></table></p></div><a name="removeSource()"></a><a name="removeSource(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">removeSource</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function removeSource(key:String):void</code><p></p><p></p><p>
+		 Remove a data source
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash;  key to the source
+		 </td></tr></table></p></div><a name="setValue()"></a><a name="setValue(String,any)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setValue(key:String, data:*):Boolean</code><p></p><p></p><p>
+		 Write data in a registered datafield of the DataManager or in a connected source(if writeable)
+		 It does not work like register(). There has to be a value there before setValue can be used
+		 
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash; 	the key to the value, to be changed
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">data</span>:*</code> &mdash; the new data
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; <code>true</code> if the data was set.
+		 
+		 </td></tr></table><br/><span class="label"> Example </span><br/><div class="detailBody">
+		 How to write data
+		 <div class="listing" version="3.0"><pre>
+         
+         
+         // set the id parameter of the user object
+         Flow.data.setValue("user.id", 200);
+         
+         // set the 6 element of the pitures array
+         Flow.data.getValue("user.pictures.6", "pic7.jpg");
+         
+         // use the DataRef class a better access
+         var userIDRef : DataRef = new DataRef("user.id");
+         
+         userIDRef.value = 30;
+         </pre></div>
+		 </div></div><a name="unregister()"></a><a name="unregister(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">unregister</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function unregister(key:String):void</code><p></p><p></p><p>
+		 Unregister data, only for base keys, not for subkeys(like BaseKey.SubKey)
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">key</span>:String</code> &mdash; key to data
+		 </td></tr></table></p></div><div class="detailSectionHeader">Constant Detail</div><a name="constantDetail"></a><a name="DEFAULT_MANAGER_NAME"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">DEFAULT_MANAGER_NAME</td><td class="detailHeaderType">Constant</td></tr></table><div class="detailBody"><code>public static const DEFAULT_MANAGER_NAME:String = DataManager</code><p></p><p></p><p>
+		 The default manager name
+		 </p></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>Freitag Oktober 12 2012, 09:40 AM +02:00  </center></div></body></html><!--<br/>Freitag Oktober 12 2012, 09:40 AM +02:00  -->
